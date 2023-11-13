@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="projectCSS.css">
+</head>
+<body>
+    <div class="form">
+        <form id="resumeForm">
+            <div class="banner">
+                <h1>Jade Oakes</h1>
+                <h3>WEB.115.0001</h3>
+                <h3>Build Your Resume</h3>
+            </div>
+
+            <div class="inputs">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label for="name">Full name:</label><br>
+                    <input id="name" name="name" type="text">
+                    <br><br>
+                    <label for="city">City:</label><br>
+                    <input id="city" name="city" type="text">
+                    <br><br>
+                    <label for="state">State:</label><br>
+                    <input id="state" name="state" type="text">
+                    <br><br>
+                    <label for="zip">Zip code:</label><br>
+                    <input id="zip" name="zip" type="text">
+                    <br><br>
+                    <label for="phone">Phone number:</label><br>
+                    <input id="phone" name="phone-number" type="text">
+                    <br><br>
+                    <label for="email">Email (required):</label><br>
+                    <input id="email" name="email" type="email" required>
+                    <br><br>
+                    <label for="linkedin">LinkedIn:</label><br>
+                    <input id="linkedin" name="linkedin" type="text">
+                    <br><br>
+                    <label for="portfolio">Portfolio:</label><br>
+                    <input id="portfolio" name="portfolio" type="text">
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Skills</legend>
+                    <label for="skill1">Enter relevant skills (coding skills, work ethic, writing skills, etc.):</label><br><br>
+                    <input id="skill1" name="Skill1" type="text" value="Skill 1"><br><br>
+                    <input id="skill2" name="Skill2" type="text" value="Skill 2"><br><br>
+                    <input id="skill3" name="Skill3" type="text" value="Skill 3"><br><br>
+                    <input id="skill4" name="Skill4" type="text" value="Skill 4">
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Technical Skills</legend>
+                    <label for="techSkill1">Enter technical skills (coding languages, applications, etc.):</label><br><br>
+                    <input id="techSkill1" name="techSkill1" type="text" value="Technical skill 1"><br><br>
+                    <input id="techSkill2" name="techSkill2" type="text" value="Technical skill 2"><br><br>
+                    <input id="techSkill3" name="techSkill3" type="text" value="Technical skill 3"><br><br>
+                    <input id="techSkill4" name="techSkill4" type="text" value="Technical skill 4">
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Education</legend>
+                    <label for="schoolName">School name:</label><br>
+                    <input id="schoolName" name="SchoolName" type="text">
+                    <br><br>
+                    <label for="schoolCity">City:</label><br>
+                    <input id="schoolCity" name="SchoolCity" type="text">
+                    <br><br>
+                    <label for="schoolState">State:</label><br>
+                    <input id="schoolState" name="SchoolState" type="text">
+                    <br><br>
+                    <label for="degree">Degree:</label><br>
+                    <input id="degree" name="Degree" type="text">
+                    <br><br>
+                    <label for="degreeYear">Year degree earned (or enter "degree in progress"):</label><br>
+                    <input id="degreeYear" name="DegreeYear" type="text">
+                    <br><br>
+                    <label for="edDetails">Enter details about your education:</label><br>
+                    <textarea id="edDetails" name="EdDetails" rows="6" cols="33"></textarea>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Employement History</legend>
+                    <p>Enter up to three of your most recent jobs</p>
+                    <p>Job 1:</p>
+                    <label for="company1">Company name:</label><br>
+                    <input id="company1" name="Company1" type="text">
+                    <br><br>
+                    <label for="jobCity1">City:</label><br>
+                    <input id="jobCity1" name="JobCity1" type="text">
+                    <br><br>
+                    <label for="jobState1">State:</label><br>
+                    <input id="jobState1" name="JobState1" type="text">
+                    <br><br>
+                    <label for="jobTitle1">Job title:</label><br>
+                    <input id="jobTitle1" name="JobTitle1" type="text">
+                    <br><br>
+                    <label for="startDate1">Start date:</label><br>
+                    <input id="startDate1" name="StartDate1" type="date">
+                    <br><br>
+                    <label for="endDate1">End date:</label><br>
+                    <input id="endDate1" name="EndDate1" type="date">
+                    <br><br>
+                    <label for="jobDetails1">Enter details about the job:</label><br>
+                    <textarea id="jobDetails1" name="JobDetails1" rows="6" cols="33"></textarea>
+                    <br><br>
+
+                    <p>Job 2:</p>
+                    <label for="company2">Company name:</label><br>
+                    <input id="company2" name="Company2" type="text">
+                    <br><br>
+                    <label for="jobCity2">City:</label><br>
+                    <input id="jobCity2" name="JobCity2" type="text">
+                    <br><br>
+                    <label for="jobState2">State:</label><br>
+                    <input id="jobState2" name="JobState2" type="text">
+                    <br><br>
+                    <label for="jobTitle2">Job title:</label><br>
+                    <input id="jobTitle2" name="JobTitle2" type="text">
+                    <br><br>
+                    <label for="startDate2">Start date:</label><br>
+                    <input id="startDate2" name="StartDate2" type="date">
+                    <br><br>
+                    <label for="endDate2">End date:</label><br>
+                    <input id="endDate2" name="EndDate2" type="date">
+                    <br><br>
+                    <label for="jobDetails2">Enter details about the job:</label><br>
+                    <textarea id="jobDetails2" name="JobDetails2" rows="6" cols="33"></textarea>
+                    <br><br>
+
+                    <p>Job 3:</p>
+                    <label for="company3">Company name:</label><br>
+                    <input id="company3" name="Company3" type="text">
+                    <br><br>
+                    <label for="jobCity3">City:</label><br>
+                    <input id="jobCity3" name="JobCity3" type="text">
+                    <br><br>
+                    <label for="jobState3">State:</label><br>
+                    <input id="jobState3" name="JobState3" type="text">
+                    <br><br>
+                    <label for="jobTitle3">Job title:</label><br>
+                    <input id="jobTitle3" name="JobTitle3" type="text">
+                    <br><br>
+                    <label for="startDate3">Start date:</label><br>
+                    <input id="startDate3" name="StartDate3" type="date">
+                    <br><br>
+                    <label for="endDate3">End date:</label><br>
+                    <input id="endDate3" name="EndDate3" type="date">
+                    <br><br>
+                    <label for="jobDetails3">Enter details about the job:</label><br>
+                    <textarea id="jobDetails3" name="JobDetails3" rows="6" cols="33"></textarea>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>References</legend>
+                    <label for="references">Enter references:</label><br>
+                    <textarea id="references" name="references" rows="6" cols="33"></textarea>
+                </fieldset><br><br>
+            </div>
+            <button id="createResume">Create Resume</button><br><br><br>
+        </form>
+    </div>
+
+    <script src="projectJS.js"></script>
+</body>
+</html>

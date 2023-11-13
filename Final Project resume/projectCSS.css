@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+fieldset {
+    border-width: 3px;
+}
+
+legend {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input, textarea {
+    border: 2px solid rgb(73, 73, 73);
+    height: 20px 10px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+label {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+input[value] {
+    color: rgb(168, 168, 168);
+}
+
+p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.banner {
+    padding: 7px;
+    margin-bottom: 30px;
+    background: linear-gradient(to bottom right, #8551b6, #f7f0fa);
+    line-height: .75;
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+#employHis {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+button {
+    background-color: #d5d5d5;
+    border: none;
+    padding: 8px 20px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold
+}
+
+button:hover {
+    background-color: #e2e2e2;
+
+}
+
+.user-info {
+	display: flex;
+}
+
+.col {
+    margin-right: 10em;
+}
